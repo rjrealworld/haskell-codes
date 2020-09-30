@@ -2,7 +2,7 @@ import Data.List
 import Data.Char
 
 position :: Char -> Int
-position ch = (fromEnum 'a') - (fromEnum ch)
+position ch = (fromEnum 'ch') - (fromEnum 'a')
 
 tallest :: [Char] -> [Int] -> Int
 tallest word letterHeights = maximum $ [letterHeights !! (position ch) | ch <- word]
