@@ -1,3 +1,3 @@
 # haskell-codes
 
-Haskell codes for some problems
+This Repo contains Haskell codes for different problems
